@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import education from "../assets/lottie/education.json";
-import IIITV_Logo from "../assets/IIITV_Logo.png"; // ✅ Updated logo
+import Christ_logo from "../assets/Christ_logo.png"; // ✅ Updated logo
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -13,7 +13,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="EXPERIENCE p-5 mx-5 md:mx-10 lg:mx-20 mb-10 font-['Poppins'] max-sm:p-2"
+      className="EXPERIENCE p-3 sm:p-4 md:p-5 mx-2 sm:mx-4 md:mx-5 lg:mx-10 xl:mx-20 mb-6 sm:mb-8 md:mb-10 font-['Poppins']"
     >
       <div className="WRAPPER mt-10">
         <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-3xl sm:text-4xl md:text-5xl mb-5 max-sm:text-4xl">
@@ -21,39 +21,41 @@ const Education = () => {
         </h1>
 
         <div
-          className="EDUCATION flex gap-7 justify-between flex-row-reverse max-sm:flex-col"
+          className="EDUCATION flex flex-col-reverse md:flex-row-reverse gap-5 md:gap-7 justify-between items-center md:items-start"
           data-aos="fade-right"
         >
-          <div className="max-w-full md:max-w-[520px] mt-[52px] p-7 max-sm:p-3">
-            <div className="flex gap-5">
+          <div className="w-full md:max-w-[520px] mt-0 md:mt-12 p-4 sm:p-6 md:p-7">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 items-center sm:items-start">
               <img
-                src={IIITV_Logo}
-                alt="IIIT Vadodara"
-                className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] md:w-[90px] md:h-[90px]"
+                src={Christ_logo}
+                alt="Christ University"
+                className="w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[80px] md:h-[80px] lg:w-[90px] lg:h-[90px] flex-shrink-0"
               />
-              <h1 className="bg-clip-text text-transparent bg-gradient-to-r max-sm:text-[16px] sm:text-[18px] md:text-2xl from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100 font-semibold w-full max-w-[300px] tracking-wider">
-                Indian Institute of Information Technology Vadodara
+              <h1 className="bg-clip-text text-transparent bg-gradient-to-r text-base sm:text-lg md:text-xl lg:text-2xl from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100 font-semibold text-center sm:text-left tracking-wider break-words">
+                Christ (Deemed to be University)
               </h1>
             </div>
 
-            <div className="mt-7 flex flex-col gap-5 text-left pl-4">
-              <h3 className="capitalize text-slate-800 dark:text-slate-300 text-xl max-sm:text-lg">
-                Bachelor of Technology
+            <div className="mt-5 sm:mt-7 flex flex-col gap-3 sm:gap-5 text-left pl-0 sm:pl-4">
+              <h3 className="capitalize text-slate-800 dark:text-slate-300 text-lg sm:text-xl">
+                Bachelor of Science
               </h3>
-              <p className="italic capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
-                2022 - 2026
+              <p className="italic capitalize text-gray-500 dark:text-slate-500 text-base sm:text-lg md:text-xl leading-7 sm:leading-9">
+                2022 - 2025
               </p>
-              <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
-                Computer Science and Engineering
+              <p className="capitalize text-gray-500 dark:text-slate-500 text-base sm:text-lg md:text-xl leading-7 sm:leading-9">
+                Data Science
               </p>
             </div>
           </div>
 
-          <Lottie
-            animationData={education}
-            loop={true}
-            className="max-w-full md:max-w-[500px] shadow-xl rounded-xl border border-[#00040f]"
-          />
+          <div className="w-full md:w-auto flex justify-center md:justify-start flex-shrink-0">
+            <Lottie
+              animationData={education}
+              loop={true}
+              className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[450px] lg:max-w-[500px] h-auto shadow-xl rounded-xl border border-[#00040f]"
+            />
+          </div>
         </div>
       </div>
     </section>

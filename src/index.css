@@ -8,9 +8,26 @@
 }
 
 html {
-    @apply overflow-x-hidden scroll-smooth
+    @apply overflow-x-hidden scroll-smooth;
+    width: 100%;
+    max-width: 100vw;
 }
 
 body {
-    @apply dark:bg-[#00040f] bg-[#e2e2e2ab] overflow-x-hidden
+    @apply dark:bg-[#00040f] bg-[#e2e2e2ab] overflow-x-hidden;
+    width: 100%;
+    max-width: 100vw;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@layer utilities {
+    .text-justify {
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }

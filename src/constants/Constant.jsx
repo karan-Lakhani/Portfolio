@@ -1,22 +1,22 @@
-import C from "../assets/C.png";
-import CPP from "../assets/CPP.png";
-import HTML from "../assets/HTML.png";
+import powerbi from "../assets/powerbi.png";
+import tab from "../assets/tab.png";
+import Tf from "../assets/Tf.png";
 import Github from "../assets/Github.png";
 import CSS from "../assets/CSS.png";
 import Python from "../assets/Python.png";
 import Javascript from "../assets/Javascript.png";
 import Git from "../assets/Git.png";
 import Vite from "../assets/Vite.png";
-import TailwindCSS from "../assets/TailwindCSS.png";
-import react from "../assets/React.png";
+import Spark from "../assets/Spark.png";
+import Lang from "../assets/Lang.png";
 import Vue from "../assets/Vue.png";
 
 import Hackthechain from "../assets/HackTheChainLogo.png";
 import GSSOC from "../assets/GSSoC.jpg";
 import IITB from "../assets/IITB.png";
 import Sports from "../assets/Sports_Club.png";
-import IIITians from "../assets/IIITians_Network.png";
-import GDSC from "../assets/GDSC.png";
+import BI from "../assets/BI.png";
+import technoco from "../assets/technoco.png";
 import KDE from "../assets/kde.png";
 import Oppia from "../assets/oppia.png";
 
@@ -27,15 +27,15 @@ import Game from "../assets/Stone.jpg";
 import WellBeing from "../assets/well-being.jpg";
 
 export {
-  C,
-  CPP,
-  HTML,
+  powerbi,
+  tab,
+  Tf,
   CSS,
   Github,
   Git,
   Vite,
-  TailwindCSS,
-  react,
+  Spark,
+  Lang,
   Python,
   Javascript,
   Vue,
@@ -43,13 +43,13 @@ export {
   GSSOC,
   IITB,
   Sports,
-  IIITians,
+  BI,
   GPT4,
   Portfolio,
   Rocket,
   WellBeing,
   Game,
-  GDSC,
+  technoco,
   KDE,
   Oppia,
 };

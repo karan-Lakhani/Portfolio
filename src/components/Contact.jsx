@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="p-5 mx-5 md:mx-10 lg:mx-20 mb-10 font-['Poppins'] max-sm:p-2"
+      className="p-3 sm:p-4 md:p-5 mx-2 sm:mx-4 md:mx-5 lg:mx-10 xl:mx-20 mb-6 sm:mb-8 md:mb-10 font-['Poppins']"
     >
       <h1 className="text-[#00040f] dark:text-slate-300 font-extrabold text-3xl sm:text-4xl md:text-5xl text-center mb-2">
         Contact Me
@@ -57,34 +57,34 @@ const Contact = () => {
       </p>
 
       {/* Main Wrapper */}
-      <div className="flex flex-col md:flex-row justify-between gap-10 max-md:gap-6 bg-gradient-to-tl from-[#e1e1e1] to-[#fff] dark:from-[#00040f] dark:to-[#0B274C] rounded-3xl shadow-xl p-6 sm:p-8 md:p-10">
+      <div className="flex flex-col md:flex-row justify-between gap-6 sm:gap-8 md:gap-10 bg-gradient-to-tl from-[#e1e1e1] to-[#fff] dark:from-[#00040f] dark:to-[#0B274C] rounded-2xl sm:rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10">
 
         {/* LEFT SIDE — Info Section */}
-        <div className="flex flex-col justify-center w-full md:w-1/2 text-[#00040f] dark:text-slate-300 gap-5">
-          <h2 className="text-3xl font-bold mb-2">Get In Touch</h2>
+        <div className="flex flex-col justify-center w-full md:w-1/2 text-[#00040f] dark:text-slate-300 gap-4 sm:gap-5">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-2">Get In Touch</h2>
 
           {/* Social Icons */}
-          <div className="flex gap-5 text-2xl mb-3">
+          <div className="flex gap-4 sm:gap-5 text-xl sm:text-2xl mb-3">
             <a
-              href="https://www.linkedin.com/in/ved-prakash-meena/"
+              href="https://www.linkedin.com/in/karanlkhani/"
               className="hover:text-blue-600 dark:hover:text-cyan-400 transition"
             >
               <SiLinkedin />
             </a>
             <a
-              href="https://github.com/Vedmeena21"
+              href="https://github.com/karan-Lakhani"
               className="hover:text-blue-600 dark:hover:text-cyan-400 transition"
             >
               <SiGithub />
             </a>
             <a
-              href="https://www.instagram.com/ved.meenaa/"
+              href="https://www.instagram.com/karan_lkhani/"
               className="hover:text-pink-600 dark:hover:text-pink-400 transition"
             >
               <SiInstagram />
             </a>
             <a
-              href="mailto:connect.ved21@gmail.com"
+              href="mailto:karanlakhani2712@gmail.com"
               className="hover:text-red-500 dark:hover:text-red-400 transition"
             >
               <SiGmail />
@@ -93,24 +93,24 @@ const Contact = () => {
 
           {/* Contact Info */}
           <div className="flex items-center gap-3">
-            <FaPhoneAlt />
-            <span>+91 8529608145</span>
+            <FaPhoneAlt className="flex-shrink-0" />
+            <span className="break-all">+91 7425902961</span>
           </div>
           <div className="flex items-center gap-3">
-            <SiGmail />
-            <span>connect.ved21@gmail.com</span>
+            <SiGmail className="flex-shrink-0" />
+            <span className="break-all">karanlakhani2712@gmail.com</span>
           </div>
-          <div className="flex items-center gap-3">
-            <FaMapMarkerAlt />
-            <span>
-              House Number 1, Govindham Vihar, Ganpati Nagar, Pushkar Road, Ajmer, Rajasthan 305004
+          <div className="flex items-start gap-3">
+            <FaMapMarkerAlt className="flex-shrink-0 mt-1" />
+            <span className="break-words">
+              House Number 234, H.B.U. Nagar Main, Behind Cine World, Ajmer, Rajasthan 305001
             </span>
           </div>
         </div>
 
         {/* RIGHT SIDE — Contact Form */}
-        <div className="w-full md:w-1/2 bg-white/90 dark:bg-slate-800/50 p-6 sm:p-8 rounded-2xl shadow-inner border border-slate-300 dark:border-slate-700 backdrop-blur-md">
-          <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+        <div className="w-full md:w-1/2 bg-white/90 dark:bg-slate-800/50 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl shadow-inner border border-slate-300 dark:border-slate-700 backdrop-blur-md">
+          <form onSubmit={handleSubmit} className="flex flex-col gap-4 sm:gap-5">
             <input
               type="text"
               name="name"
@@ -151,7 +151,7 @@ const Contact = () => {
 
       {/* Footer */}
       <p className="text-[#00040f] dark:text-slate-300 text-center mt-10 tracking-wider capitalize text-sm">
-        Made with 💙 by Ved Prakash Meena & the Open Source Community
+        Made with 💙 by Karan Lakhani & the Open Source Community
       </p>
     </section>
   );

@@ -4,7 +4,9 @@ import Project_prop from "./Project_prop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import IIITV from "../assets/IIITV_Logo.png";
+import IDe from "../assets/IDe.png";
+import HE from "../assets/HE.png";
+import oppia from "../assets/oppia.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -14,7 +16,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="p-5 mx-5 md:mx-10 lg:mx-16 mb-10 font-['Poppins'] max-sm:p-2"
+      className="p-3 sm:p-4 md:p-5 mx-2 sm:mx-4 md:mx-5 lg:mx-10 xl:mx-16 mb-6 sm:mb-8 md:mb-10 font-['Poppins']"
     >
       <div className="WRAPPER mt-12">
         <h1 className="text-[#00040f] dark:text-slate-300 font-extrabold text-3xl sm:text-4xl md:text-5xl text-center">
@@ -22,51 +24,31 @@ const Projects = () => {
         </h1>
 
         <div
-          className="EXPERIENCE mt-16 grid gap-8 sm:gap-10 md:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          className="EXPERIENCE mt-10 sm:mt-14 md:mt-16 grid gap-6 sm:gap-8 md:gap-10 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
           data-aos="zoom-in-up"
         >
           <Project_prop
-            img={IIITV}
-            title="Movie Recommendation System"
-            para="AI movie recommender using LLaMA, spaCy, and Neo4j for personalized results."
-            github_link="https://github.com/Vedmeena21/MovieRecommenderSystem"
-            link="https://github.com/Vedmeena21/MovieRecommenderSystem"
+            img={IDe}
+            title="Instrument Detection in Music Audio Signals"
+            para="Built multi-label classifier with 60% accuracy using MFCC/mel-spectrogram features."
+            github_link="https://github.com/karan-Lakhani/Instrument-detection-with-music-audio-signals"
+            link="https://github.com/karan-Lakhani/Instrument-detection-with-music-audio-signals"
           />
           <Project_prop
-            img={IIITV}
-            title="Multi-threaded LRU Cache in C++"
-            para="Built a thread-safe LRU cache enabling fast, concurrent data access."
-            github_link="https://github.com/Vedmeena21/Multi-threaded-LRU-Cache"
-            link="https://github.com/Vedmeena21/Multi-threaded-LRU-Cache"
+            img={HE}
+            title="Human Emotion Detection"
+            para="Achieved 99.4% accuracy on a CNN-based model with advanced preprocessing techniques."
+            github_link="https://github.com/karan-Lakhani/Human-Emotion-Detection"
+            link="https://github.com/karan-Lakhani/Human-Emotion-Detection"
           />
           <Project_prop
-            img={IIITV}
-            title="AskMyPDF"
-            para="AI tool using LangChain and LLMs to answer PDF-based questions."
-            github_link="https://github.com/Vedmeena21/AskMyPDF"
-            link="https://github.com/Vedmeena21/AskMyPDF"
+            img={oppia}
+            title="Startup Acquisition Prediction"
+            para="Developed ML pipeline predicting startup acquisitions with 90% accuracy."
+            github_link="https://github.com/karan-Lakhani/Building-Machine-Learning-Pipeline-on-Startup-Acquisition-Status"
+            link="https://github.com/karan-Lakhani/Building-Machine-Learning-Pipeline-on-Startup-Acquisition-Status"
           />
-          <Project_prop
-            img={IIITV}
-            title="SpendWise - Smart Expense Analyzer"
-            para="Full-stack expense tracker with OCR receipt scanning and budget analytics."
-            github_link="https://github.com/Vedmeena21/SpendWise"
-            link="https://smart-expense-analyser-frontend.onrender.com/"
-          />
-          <Project_prop
-            img={IIITV}
-            title="SHL Assessment Recommendation System"
-            para="AI-powered assessment recommender using RAG, ChromaDB, and Gemini API."
-            github_link="https://github.com/Vedmeena21/SHL_Assessment"
-            link="https://vedshl.vercel.app/"
-          />
-          <Project_prop
-            img={IIITV}
-            title="Dynamic Calendar App"
-            para="Interactive React calendar with event management and localStorage support."
-            github_link="https://github.com/Vedmeena21/DynamicCalender"
-            link="https://github.com/Vedmeena21/DynamicCalender"
-          />
+          
         </div>
       </div>
     </section>
