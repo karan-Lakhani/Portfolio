@@ -57,16 +57,16 @@ const AboutMe = () => {
           </div>
 
           <p className="mt-2 sm:mt-4 break-words text-justify">
-            Graduated from{" "}
+            Student at{" "}
             <span className="font-semibold text-[#00040f] dark:text-slate-200">
-              Christ University
-            </span>, specializing in Data Analysis and AI/ML.
+              Singapore University of Technology and Design (SUTD)
+            </span>, specializing in Data Science and AI/ML.
           </p>
           <p className="mt-2 break-words text-justify">
-            Skilled in building ML models, real-time dashboards, and data-driven solutions using Python, SQL, Power BI, and deep learning frameworks.
+            Skilled in building Agentic workflows, ML modelling, real-time dashboards, and data-driven solutions using Python, SQL, Power BI, and deep learning frameworks.
           </p>
           <p className="mt-2 break-words text-justify">
-            Interested in Machine Learning Engineer, Data Scientist, Product Analytics, and AI-focused roles.
+            Interested in AI/ML Engineer, Data Scientist, Product Analytics, and AI-focused roles.
           </p>
         </div>
 

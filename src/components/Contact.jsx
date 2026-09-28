@@ -94,7 +94,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="flex items-center gap-3">
             <FaPhoneAlt className="flex-shrink-0" />
-            <span className="break-all">+91 7425902961</span>
+            <span className="break-all">+65 84830286</span>
           </div>
           <div className="flex items-center gap-3">
             <SiGmail className="flex-shrink-0" />
@@ -103,7 +103,7 @@ const Contact = () => {
           <div className="flex items-start gap-3">
             <FaMapMarkerAlt className="flex-shrink-0 mt-1" />
             <span className="break-words">
-              House Number 234, H.B.U. Nagar Main, Behind Cine World, Ajmer, Rajasthan 305001
+              Singapore - 529891
             </span>
           </div>
         </div>

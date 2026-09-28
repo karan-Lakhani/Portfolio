@@ -5,7 +5,12 @@ import { SlLink } from "react-icons/sl";
 const Project_prop = (props) => {
   return (
     <>
-      <div className="border-[#00040f] shadow-xl bg-[#e1e1e1] dark:bg-transparent dark:border-white border rounded-xl min-h-[370px] sm:min-h-[400px] md:min-h-[420px] p-4 sm:p-5 md:p-7 hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] dark:from-[#00040F] dark:to-[#0B274C]">
+      <div className="relative border-[#00040f] shadow-xl bg-[#e1e1e1] dark:bg-transparent dark:border-white border rounded-xl min-h-[370px] sm:min-h-[400px] md:min-h-[420px] p-4 sm:p-5 md:p-7 hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] dark:from-[#00040F] dark:to-[#0B274C]">
+        {props.underDevelopment && (
+          <span className="absolute top-3 right-3 text-xs font-semibold px-2 py-1 rounded-full bg-yellow-400/20 text-yellow-600 dark:text-yellow-400 border border-yellow-400/40">
+            🚧 Under Development
+          </span>
+        )}
         <div className="HEADER">
           <div className="HEADING flex flex-col sm:flex-row gap-3 sm:gap-5 md:gap-7">
             <div className="p-2 sm:p-3 flex-shrink-0 flex justify-center sm:justify-start">

@@ -5,8 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import IDe from "../assets/IDe.png";
-import HE from "../assets/HE.png";
-import oppia from "../assets/oppia.png";
+import enterpriseKn from "../assets/enterprise_kn.png";
+import resumeOpti from "../assets/resume_opti.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -35,18 +35,19 @@ const Projects = () => {
             link="https://github.com/karan-Lakhani/Instrument-detection-with-music-audio-signals"
           />
           <Project_prop
-            img={HE}
-            title="Human Emotion Detection"
-            para="Achieved 99.4% accuracy on a CNN-based model with advanced preprocessing techniques."
-            github_link="https://github.com/karan-Lakhani/Human-Emotion-Detection"
-            link="https://github.com/karan-Lakhani/Human-Emotion-Detection"
+            img={enterpriseKn}
+            title="Enterprise Knowledge Assistant"
+            para="RAG application that indexes enterprise PDFs into ChromaDB, retrieves relevant sections, and uses Google Gemini to generate grounded answers with source attribution."
+            github_link="https://github.com/karan-Lakhani/Enterprise-knowledge-assistant"
+            link="https://github.com/karan-Lakhani/Enterprise-knowledge-assistant"
           />
           <Project_prop
-            img={oppia}
-            title="Startup Acquisition Prediction"
-            para="Developed ML pipeline predicting startup acquisitions with 90% accuracy."
-            github_link="https://github.com/karan-Lakhani/Building-Machine-Learning-Pipeline-on-Startup-Acquisition-Status"
-            link="https://github.com/karan-Lakhani/Building-Machine-Learning-Pipeline-on-Startup-Acquisition-Status"
+            img={resumeOpti}
+            title="Resume Optimizer Agent"
+            para="Streamlit agent that parses a master resume, discovers relevant jobs via external APIs, scores matches, and generates tailored application materials using swappable LLM providers."
+            github_link="https://github.com/karan-Lakhani/Resume-optimizer-agent"
+            link="https://github.com/karan-Lakhani/Resume-optimizer-agent"
+            underDevelopment={true}
           />
           
         </div>
